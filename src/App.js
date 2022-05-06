@@ -3,8 +3,6 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import JourneyListPage from './pages/JourneyListPage';
-import JourneyPage from './pages/JourneyPage';
 import NotFoundPage from './pages/NotFoundPage';
 import {Routes, Route} from 'react-router-dom';
 import { useEffect } from 'react'
