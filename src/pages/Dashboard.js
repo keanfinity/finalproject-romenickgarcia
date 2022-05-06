@@ -58,7 +58,7 @@ const Main=()=>{
                         {
                             arr.map((value,pos)=>{
                                 return(
-                                    <li><a className='p-3' key={pos} name={value} onClick={(e)=>{getData(e.target.name)}}>{value}</a></li>
+                                    <li><button className='p-3' key={pos} name={value} onClick={(e)=>{getData(e.target.name)}}>{value}</button></li>
                                 )
                             })
                         }
