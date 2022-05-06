@@ -58,7 +58,7 @@ const Main=()=>{
                         {
                             arr.map((value,pos)=>{
                                 return(
-                                    <li><button className='p-3' key={pos} name={value} onClick={(e)=>{getData(e.target.name)}}>{value}</button></li>
+                                    <li><a href="/dashboard" className='p-3' key={pos} name={value} onClick={(e)=>{getData(e.target.name)}}>{value}</a></li>
                                 )
                             })
                         }
