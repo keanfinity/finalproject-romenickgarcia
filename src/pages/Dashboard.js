@@ -79,7 +79,7 @@ const Main=()=>{
             </div>
             <div className="container " style={{paddingTop:'120px'}}>
                 {
-                    (movieData.length==0)?<p className="notfound">Not Found</p>: movieData.map((res,pos)=>{
+                    (movieData.length===0)?<p className="notfound">Not Found</p>: movieData.map((res,pos)=>{
                         return(
                             <Card info={res} key={pos}/>
                         )
