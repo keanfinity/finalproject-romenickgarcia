@@ -28,8 +28,6 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/journey-list" element={<JourneyListPage />} />
-        <Route path="/journey-page/:name" element={<JourneyPage />} />
         <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </div>
