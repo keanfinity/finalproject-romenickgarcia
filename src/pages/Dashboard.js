@@ -68,11 +68,10 @@ const Main=()=>{
                 </nav>
                 <form>
                     <div className="search-btn">
-                        <input type="text" placeholder="Enter Movie Name" 
+                        <input type="text" placeholder="Search a movie here..." 
                         className="inputText" onChange={(e)=>{setSearch(e.target.value)}} 
                         value={search} onKeyPress={searchMovie}>
                         </input>
-                        <button className='btn btn-danger'>Search</button>
                     </div>
                 </form>
                 <Link className="text-decoration-none text-light btn" to="/" style={{backgroundColor:"red"}}><button className='btn btn-color text-light' >  LOGOUT </button></Link>
